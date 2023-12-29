@@ -1,0 +1,10 @@
+git rebase -i  HEAD ~ no of commits
+enter i
+leave first pick
+rename next pick to squash
+:wq!
+i 
+keep only one commit messgae
+remaining add # at front
+:wq!
+git push -f
